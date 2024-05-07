@@ -15,7 +15,10 @@ sudo apt-get install docker-compose
 ```
 sudo usermod -aG docker jenkins
 ```
-
+Reboot the system to apply the changes
+```
+sudo reboot
+```
 
 ### 3) Setup and configure the job by following the instructions
 ####   Click on the **New Item** button on to create the job
